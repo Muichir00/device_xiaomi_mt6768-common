@@ -439,4 +439,6 @@ persist.vendor.max.brightness=448
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-import /vendor/build_${ro.boot.radio.multisim.config}_vendor.prop
+debug.renderengine.backend=skiaglthreaded
+ro.config.vc_call_vol_steps=7
+
